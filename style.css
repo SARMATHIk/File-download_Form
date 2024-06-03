@@ -89,14 +89,17 @@ form {
 }
 
 a {
-  display: flex;
-}
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    border: 2px solid #000000;
+    padding: 15px 15px 15px 40px;
+  }
+  i {
+    position: absolute;
+    left: 46%;
+    font-size: 15px;
+  }
 
-/* input {
-  background-color: #fffafb;
-  width: auto;
-  height: auto;
-  padding: 5px 30px;
-} */
 
-/* Project code ends here */
